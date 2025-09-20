@@ -8,7 +8,10 @@ export default function Navbar() {
   const NavLinks = (
     <>
       <li>
-        <Link href={"/"} className="border-b">
+        <Link
+          href={"/"}
+          className="border-b-2 border-gray-500 rounded-none pb-1 font-bold"
+        >
           Home
         </Link>
       </li>
@@ -67,7 +70,7 @@ export default function Navbar() {
           <input
             type="search"
             placeholder="Search..."
-            className="bg-[#F5F5F5] py-2.5 pl-4 pr-12 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-400 w-64"
+            className="bg-[#F5F5F5] py-2.5 pl-4 pr-12 shadow rounded-full focus:outline-none focus:ring-2 focus:ring-gray-400 w-44  md:w-64"
           />
           <IoIosSearch
             size={26}
@@ -75,10 +78,10 @@ export default function Navbar() {
           />
         </div>
         <div className="flex gap-4">
-          <span>
+          <span className="cursor-pointer">
             <FaRegHeart size={26} />
           </span>
-          <span>
+          <span className="cursor-pointer">
             <FiShoppingCart size={26} />
           </span>
         </div>
