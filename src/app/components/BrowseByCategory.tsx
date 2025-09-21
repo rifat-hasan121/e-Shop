@@ -26,7 +26,7 @@ export default function BrowseByCategory() {
           <div className="border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-CellPhone.png"
-              alt="CellPhone"
+              alt="Phones"
               width={56}
               height={56}
               className=""
@@ -36,7 +36,7 @@ export default function BrowseByCategory() {
           <div className="border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-Computer.png"
-              alt="CellPhone"
+              alt="Computers"
               width={56}
               height={56}
               className=""
@@ -46,7 +46,7 @@ export default function BrowseByCategory() {
           <div className="border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-SmartWatch.png"
-              alt="CellPhone"
+              alt="SmartWatch"
               width={56}
               height={56}
               className=""
@@ -56,7 +56,7 @@ export default function BrowseByCategory() {
           <div className="bg-[#DB4444] border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-Camera.png"
-              alt="CellPhone"
+              alt="Camera"
               width={56}
               height={56}
               className=""
@@ -66,7 +66,7 @@ export default function BrowseByCategory() {
           <div className="border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-Headphone.png"
-              alt="CellPhone"
+              alt="HeadPhones"
               width={56}
               height={56}
               className=""
@@ -76,7 +76,7 @@ export default function BrowseByCategory() {
           <div className="border border-gray-300 text-center rounded-sm flex flex-col justify-center items-center py-6">
             <Image
               src="/icon/Category-Gamepad.png"
-              alt="CellPhone"
+              alt="Gaming"
               width={56}
               height={56}
               className=""
