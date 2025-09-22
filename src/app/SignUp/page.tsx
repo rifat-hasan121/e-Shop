@@ -4,8 +4,8 @@ import SignUpForm from "./components/SignUpForm";
 
 export default function SignUp() {
   return (
-    <div className="my-16">
-      <div className="flex items-center gap-32">
+    <div className="my-6 md:my-16">
+      <div className="md:flex items-center gap-2 md:gap-20 lg:gap-32">
         <div className="">
           <Image
             src="/image/Side Image.png"
@@ -18,9 +18,9 @@ export default function SignUp() {
             }}
           />
         </div>
-        <div className="w-96">
-          <h1 className="font-medium text-3xl">Create an account</h1>
-          <p className="text-gray-500 mt-6">Enter your details below</p>
+        <div className=" md:w-96 p-2 md:p-0 md:mr-10">
+          <h1 className="font-medium text-2xl md:text-3xl text-center md:text-left">Create an account</h1>
+          <p className="text-gray-500  mt-2 md:mt-6 text-center md:text-left">Enter your details below</p>
           <SignUpForm />
         </div>
       </div>
