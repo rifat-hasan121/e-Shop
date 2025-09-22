@@ -35,7 +35,7 @@ export default function SignInForm() {
 
         <p className="text-center mt-3 md:mt-8 ">
           Already have account?{" "}
-          <Link href={"/SignIn"} className="link">
+          <Link href={"/SignUp"} className="link">
            Sign up
           </Link>
         </p>

@@ -5,6 +5,7 @@ export default function WhyChooseUs() {
   return (
     <div className="mt-32 mb-40 flex justify-between mx-40">
       <div className="flex flex-col justify-center items-center w-fit">
+    
         <div className="bg-gray-300 p-2 rounded-full w-fit">
           <Image
             src="/icon/icon-delivery.png"

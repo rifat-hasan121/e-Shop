@@ -10,7 +10,7 @@ export default function BrowseByCategory() {
         <span className="text-[#DB4444] ml-4">Categories</span>
         <div className="flex justify-between">
           <div className="">
-            <h1 className="text-4xl mt-5 font-medium">Browse By Category</h1>
+            <h1 className="text-4xl mt-5 font-medium text-[#DB4444]">Browse By Category</h1>
           </div>
           <div className="flex gap-2 justify-center items-center">
             <span className="bg-gray-100 rounded-full p-2 cursor-pointer">
