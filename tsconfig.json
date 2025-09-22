@@ -57,7 +57,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/SignUp"  ],
   "exclude": [
     "node_modules"
   ]
